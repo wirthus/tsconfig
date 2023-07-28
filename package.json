@@ -1,0 +1,16 @@
+{
+  "name": "@wirthus/tsconfig",
+  "version": "1.0.0",
+  "homepage": "https://github.com/wirthus/tsconfig",
+  "private": true,
+  "files": [
+    "base.json",
+    "nextjs.json",
+    "node.json",
+    "react-library.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wirthus/tsconfig"
+  }
+}
