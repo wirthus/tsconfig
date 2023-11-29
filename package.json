@@ -7,10 +7,17 @@
     "base.json",
     "nextjs.json",
     "node.json",
+    "node16.json",
+    "node18.json",
+    "nodenext.json",
     "react-library.json"
   ],
   "repository": {
     "type": "git",
     "url": "https://github.com/wirthus/tsconfig"
+  },
+  "dependencies": {
+    "@tsconfig/node16": "^16.1.1",
+    "@tsconfig/node18": "^18.2.2"
   }
 }
