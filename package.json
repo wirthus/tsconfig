@@ -9,7 +9,7 @@
     "node.json",
     "node16.json",
     "node18.json",
-    "nodenext.json",
+    "node20.json",
     "react-library.json"
   ],
   "repository": {
@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "@tsconfig/node16": "^16.1.1",
-    "@tsconfig/node18": "^18.2.2"
+    "@tsconfig/node18": "^18.2.2",
+    "@tsconfig/node20": "^20.1.2"
   }
 }
