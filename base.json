@@ -2,12 +2,12 @@
   "$schema": "https://json.schemastore.org/tsconfig",
   "display": "Default",
   "compilerOptions": {
-    "target": "es2022",
     "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es2022",
     "lib": [
       "es2022"
     ],
-    "moduleResolution": "node",
     "allowJs": true,
     "checkJs": true,
     "esModuleInterop": true,
