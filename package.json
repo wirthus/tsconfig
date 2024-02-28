@@ -26,10 +26,17 @@
     "node20.json",
     "react.json"
   ],
+  "scripts": {
+    "release": "release-it",
+    "release:dry": "release-it --dry-run --no-npm"
+  },
   "dependencies": {
     "@tsconfig/node16": "^16.1.1",
     "@tsconfig/node18": "^18.2.2",
     "@tsconfig/node20": "^20.1.2"
+  },
+  "devDependencies": {
+    "release-it": "^17.1.1"
   },
   "engines": {
     "node": ">=16"
