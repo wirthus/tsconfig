@@ -1,8 +1,22 @@
 {
   "name": "@wirthus/tsconfig",
-  "version": "1.0.0",
-  "homepage": "https://github.com/wirthus/tsconfig",
-  "private": true,
+  "version": "0.0.0",
+  "description": "TSConfig for Wirthus by Wirthus",
+  "keywords": [
+    "tsconfig",
+    "node16",
+    "node18",
+    "node20",
+    "nextjs",
+    "react"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wirthus/tsconfig.git"
+  },
+  "homepage": "https://github.com/wirthus/tsconfig#readme",
+  "author": "wirthus",
+  "license": "MIT",
   "files": [
     "base.json",
     "nextjs.json",
@@ -10,15 +24,15 @@
     "node16.json",
     "node18.json",
     "node20.json",
-    "react-library.json"
+    "react.json"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/wirthus/tsconfig"
-  },
   "dependencies": {
     "@tsconfig/node16": "^16.1.1",
     "@tsconfig/node18": "^18.2.2",
     "@tsconfig/node20": "^20.1.2"
-  }
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "packageManager": "pnpm@8.15.4"
 }
