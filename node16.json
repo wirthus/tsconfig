@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "display": "Node",
+  "display": "Node 16",
   "extends": "@tsconfig/node16/tsconfig.json",
   "compilerOptions": {
     "declaration": true,
